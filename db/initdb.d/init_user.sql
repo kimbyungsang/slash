@@ -1,0 +1,3 @@
+USE mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'%';
+FLUSH PRIVILEGES;
